@@ -1,0 +1,44 @@
+*{margin: 0;
+padding: 0;}
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.svg-wrapper
+{
+	width: 150px;
+	width: 150px;
+	padding: 30px 0 30px 0;
+	color: white;
+	text-align: center;
+	margin: 30px;
+	border-radius: 10px; 
+	border: 5px;
+	background: gold;
+  box-shadow: 0 -200px 100px -120px crimson inset;
+  animation: background 3s infinite alternate;
+	/*animation: box 5s infinite;*/
+	/*animation: stroke 5s infinite;*/
+	-webkit-transition-timing-function: cubic-bezier(0.230, 0.470, 0.740, 0.205); 
+   -moz-transition-timing-function: cubic-bezier(0.230, 0.470, 0.740, 0.205); 
+     -o-transition-timing-function: cubic-bezier(0.230, 0.470, 0.740, 0.205); 
+        transition-timing-function: cubic-bezier(0.230, 0.470, 0.740, 0.205); 
+}
+/*@keyframes box
+{
+	to {margin-left: 250px;}
+	from {margin-left: 0px;}
+}*/
+/*@keyframes stroke 
+{
+	0% {border: rgba(99,233,249,1);}
+	50% {border: rgba(99,233,249,0.5);}
+	50% {border: rgba(99,233,249,0.1);}
+}
+*/
+@keyframes background {
+  50% {
+    background: skyblue;
+    box-shadow: 0 -200px 100px -100px yellowgreen inset;
+  }
+}
